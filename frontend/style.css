@@ -1,0 +1,221 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* ===========================
+   Navbar
+=========================== */
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+/* ===========================
+   Cards
+=========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card-header{
+    font-size:22px;
+    font-weight:600;
+}
+
+.card-body{
+    padding:25px;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.form-label{
+    font-weight:500;
+    color:#333;
+}
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+    transition:0.3s;
+}
+
+.form-control:focus{
+    box-shadow:0 0 8px rgba(13,110,253,.3);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.btn{
+    border-radius:10px;
+    padding:12px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.btn-success{
+    background:#198754;
+}
+
+.btn-warning{
+    color:white;
+}
+
+.btn-secondary{
+    background:#6c757d;
+}
+
+/* ===========================
+   Table
+=========================== */
+
+.table{
+    margin-bottom:0;
+}
+
+.table th{
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+.table-hover tbody tr:hover{
+    background:#eef5ff;
+}
+
+/* ===========================
+   Action Buttons
+=========================== */
+
+.edit-btn{
+
+    background:#ffc107;
+    color:white;
+    border:none;
+
+    padding:7px 12px;
+
+    border-radius:8px;
+
+    margin-right:5px;
+
+}
+
+.delete-btn{
+
+    background:#dc3545;
+    color:white;
+    border:none;
+
+    padding:7px 12px;
+
+    border-radius:8px;
+
+}
+
+.edit-btn:hover{
+
+    opacity:.9;
+
+}
+
+.delete-btn:hover{
+
+    opacity:.9;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.card{
+
+margin-bottom:25px;
+
+}
+
+.navbar-brand{
+
+font-size:22px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.card-header{
+
+font-size:18px;
+
+}
+
+.btn{
+
+font-size:14px;
+
+}
+
+table{
+
+font-size:14px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.navbar-brand{
+
+font-size:18px;
+
+}
+
+.card-body{
+
+padding:18px;
+
+}
+
+.form-control{
+
+padding:10px;
+
+}
+
+}
